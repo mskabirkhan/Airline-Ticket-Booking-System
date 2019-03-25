@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=firstName\ lastName\ weight\ baseFare\ FFC
+comment0.target=FirstClassPassenger(java.lang.String,\ java.lang.String,\ double,\ double,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ FirstClassPassenger\n
+comment1.params=
+comment1.target=double\ getAdditionalluggage()
+comment2.params=Additionalluggage
+comment2.target=void\ setAdditionalLuggage(double)
+comment3.params=
+comment3.target=double\ getAdditionalLuggage()
+numComments=4

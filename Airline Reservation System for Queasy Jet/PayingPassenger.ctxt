@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=firstName\ lastName\ weight\ passengerNumber\ baseFare\ typeCharge\ FrequentFlyerCode
+comment0.target=PayingPassenger(java.lang.String,\ java.lang.String,\ double,\ int,\ double,\ double,\ java.lang.String)
+comment0.text=\n\ Constructor\ method\ ensures\ that\ when\ a\ passenger\ is\ created,\ the\ base\ fare\ and\ type\ charge\n\ are\ included\ in\ the\ instantiation\n\ \n\ @param\ firstName\ passengers\ first\ name\n\ @param\ lastName\ passengers\ last\ name\n\ @param\ weight\ passengers\ body\ weight\n\ @param\ passengerNumber\ passengers\ ID\ number\n\ @param\ baseFare\ passengers\ base\ amount\ to\ pay\ based\ on\ the\ route\n\ @param\ typeCharge\ passengers\ amount\ to\ pay\ based\ on\ cabin\ class\ type\n\ Again,\ this\ will\ vary\ depending\ on\ the\ route\ and\ the\ type\ of\ passenger\ (eg.\ Business\ or\ Econ.\ or\ 1st\ C.)\n
+comment1.params=
+comment1.target=double\ getBaseFare()
+comment1.text=\n\ Accessor\ method\ to\ acquire\ base\ fare\ for\ the\ passenger\n\ \n\ @return\ A\ double\ that\ is\ the\ base\ fare\ for\ the\ passenger\ based\ on\ their\ route\n
+comment2.params=
+comment2.target=double\ getTypeCharge()
+comment2.text=\n\ Accessor\ method\ to\ acquire\ type\ charge\ for\ the\ passenger\n\ \n\ @return\ A\ double\ that\ is\ the\ type\ charge\ for\ the\ passenger\ based\ on\ their\ cabin\ class\n
+comment3.params=
+comment3.target=double\ getCharge()
+comment3.text=\n\ Accessor\ method\ that\ gets\ the\ total\ charge\ for\ passenger\n\ \n\ @return\ A\ double\ that\ is\ the\ total\ amount\ the\ passenger\ has\ to\ pay\ based\ on\ the\ passengers\ base\ \n\ fare,\ weight\ and\ type\ charge\n
+comment4.params=
+comment4.target=java.lang.String\ getFrequentFlyerCode()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Neatly\ displays\ the\ costs\ that\ the\ passenger\ has\n\ \n\ @return\ A\ set\ of\ strings,\ where\ each\ string\ is\ an\ amount\ of\ money\ the\ passenger\ has\ to\ pay\n
+numComments=6
